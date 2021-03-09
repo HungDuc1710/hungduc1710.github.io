@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      href="https://evondev.com/wp-content/uploads/2019/12/evondev-logo.png"
+    />
+    <title>Bí kíp code CSS hiệu quả hơn mà các bạn nên biết</title>
+  </head>
+  <body>
+    <div>
+      <h1>Bí kíp code CSS hiệu quả hơn mà các bạn nên biết</h1>
+      <span>
+        &#xf017;03/11/2020 &emsp;
+        <img
+          src="https://secure.gravatar.com/avatar/c80bab0a2e3e9df3cfa81fdd764874e1?s=24&d=identicon&r=g"
+          alt="avatar evondev"
+          width="20"
+        />evondev
+      </span>
+    </div>
+    <div>
+        <br>
+        <span><a href="CSStips.html" target="_self">Bí kíp code CSS hiệu quả hơn mà các bạn nên biết</a></span>&emsp;|&emsp;
+        <span><a href="About Evondev.html" target="_self">Giới thiệu EvonDev</a></span>&emsp;|&emsp;
+        <span><a href="INDEX.html" target="_self">HTML cơ bản cho người mới phần 1</a></span>&emsp;
+        
+    </div>
+      <br />
+     <div>
+      <img
+        src="https://evondev.com/wp-content/uploads/2020/10/css-tips.jpg"
+        alt="CSStips"
+        width="100%"
+      />
+    </div>
+    <div>
+      <p>
+        Trong quá trình đi làm và học tập mình đã tích hợp được nhiều kinh
+        nghiệm cũng như nhiều lỗi về CSS mà chúng ta trong lúc làm hay gặp,
+        trong bài viết này mình chia sẻ chúng cho các bạn hi vọng sẽ giúp ích
+        cho các bạn nhé.
+      </p>
+      <ul>
+        <li>
+          Xuất hiện khoảng trống giữa các thẻ, nguyên nhân có thể là do
+          <code>margin</code>, <code>padding</code>, thẻ
+          <code>inline-block</code> hoặc chưa dùng reset CSS
+        </li>
+        <li>
+          Kích thước lớn hơn dự kiến dù đã set width, height, nguyên nhân là
+          chưa dùng <code>box-sizing: border-box</code> dẫn đến width height
+          thêm padding và border vô nên to hơn
+        </li>
+        <li>
+          Khi dùng flexbox co lại màn hình nhưng cấu trúc không rớt xuống hàng
+          nguyên nhân là do mặc định <code>flex-wrap: nowrap</code> nên nó sẽ
+          không rớt
+        </li>
+        <li>
+          Khi làm việc với chữ đặc biệt là dạng người dùng nhập vào nhiều người
+          cố ý spam với 1 từ dài như <b>aaaaaaaaaaaaa</b> hoặc chèn link thì
+          giao diện sẽ bị bể, lúc này để fix mấy trường hợp này thì dùng
+          <code>word-break: break-word</code>, hoặc <code>break-all</code>
+        </li>
+        <li>
+          Không CSS width height, margin top bottom, padding top bottom được,
+          nguyên nhân là đang làm với thẻ inline để giải quyết chúng ta nên dùng
+          <code>display block</code> hoặc <code>inline block</code> hoặc flex
+          hoặc dùng thẻ block
+        </li>
+        <li>
+          Các thẻ như <code>input, select, button, textarea</code> nó sẽ lấy giá
+          trị mặc định từ trình duyệt chứ không lấy từ body như
+          <code>font-size, font-family</code> vì thế khi code đừng quên set cho
+          chúng
+        </li>
+        <li>Khi bôi đen các chữ có màu nền thì dùng css `:selection`</li>
+        <li>
+          CSS cho placeholder bằng `input::-webkit-input-place,
+          input::-moz-input-placeholder`
+        </li>
+        <li>
+          Ảnh quá to không co lại theo khung bao ngoài, chắc do thiếu
+          `max-width: 100%`
+        </li>
+        <li>Ảnh bị méo do thiếu `object-fit: cover`</li>
+        <li>
+          Hình nền không hiển thị do chưa set <b>width height</b> hoặc
+          <b>đường dẫn sai</b>
+        </li>
+        <li>
+          Position absolute chạy sai chỗ chắc là
+          <b>phần tử cha chưa set position</b>
+        </li>
+        <li>
+          Đôi khi dùng <code>border: 1px solid red</code> bị lỗi cái border ko
+          đều thì có thể đổi sang dùng <code>border: thin solid red</code>
+        </li>
+        <li>
+          Thẻ a không bọc trực tiếp thẻ a, 1 trang web tối đa 1 thẻ h1, các ID
+          không được trùng nhau, thẻ img nên có <code>alt</code> tối ưu cho SEO
+        </li>
+        <li>
+          Thẻ ul li <b>thẻ li không bọc trực tiếp li</b> mà phải
+          <b>li ul li</b> chứ không được <b>li li</b> cũng render ra HTML
+          <b>sai như thẻ a bọc thẻ a</b>
+        </li>
+        <li>
+          Khi dùng reset css thì các thẻ strong, b, em, i không còn đậm với
+          nghiêng là vì do các trình duyệt hiển thị khác nhau nên ngta reset
+          lại, ở firefox thẻ strong nó sẽ đậm hơn so với ở Chrome
+        </li>
+        <li>
+          Mặc định các input, button, textarea khi nhấn vô sẽ có đường line, đó
+          chính là outline để fix thì css <code>outline: none</code>
+        </li>
+        <li>
+          Để custom scrollbar gõ google css scrollbar ra trang CSS Tricks có chi
+          tiết, hoặc ẩn dấu mũi tên của input type number tìm ở CSS tricks có
+          luôn
+        </li>
+        <li>Để ẩn scrollbar chúng ta dùng đoạn code sau</li>
+      </ul>
+      <img src="image/a.PNG" alt="ví dụ" />
+      <ul>
+        <li>
+          Lý do khi dùng flexbox(row) các cột cao bằng nhau là vì thuộc tính
+          <code>align-items: stretch</code>
+        </li>
+        <li>
+          Để ẩn spinner trong input có type là number ta dùng đoạn code sau
+        </li>
+      </ul>
+      <img src="image/b.PNG" alt="ví dụ" />
+      <ul>
+        <li>
+          Khi dùng flexbox với 3 phần tử mà muốn đưa phần tử số 3 về cuối thì
+          chỉ cần đơn giản dùng <code>margin-left: auto</code>
+        </li>
+      </ul>
+      <img src="image/c.PNG" alt="ví dụ" />
+      <img src="image/d.PNG" alt="ví dụ" />
+      <ul>
+        <li>
+          Khi làm chức năng load more(tải thêm) mà không muốn bị thanh scroll
+          chạy xuống thì dùng <code>overflow-anchor: none</code>
+        </li>
+        <li>
+          Khi làm chức năng click vào một phần tử nào đó tuy nhiên trên phần tử
+          đó lại có phần tử khác nằm lên nhưng bạn không muốn nhấn vô phần tử đó
+          thì CSS cho phần tử đó <code>pointer-events: none</code>
+        </li>
+        <li>
+          Đừng quên thêm <code>cursor: pointer</code> vào cho phần tử nào mà bạn
+          muốn người dùng hiểu có thể nhấn vô được, button là một ví dụ
+        </li>
+        <li>
+          Tìm hiểu emmet để code nhanh hơn, học cách dùng custom snippets để làm
+          nhanh hơn nữa
+        </li>
+        <li>
+          Muốn nhấn vào thẻ a có href bắt đầu bằng dấu # để scroll tới phần tử
+          nào đó một cách mượt mà mà không dùng Javascript thì có thể CSS cho
+          thẻ html <code>scroll-behavior: smooth</code>
+        </li>
+        <li>
+          Muốn bỏ resize trong thẻ textarea thì dùng
+          <code>resize: none</code> trong CSS
+        </li>
+        <li>
+          Muốn chữ hiển thị trong trang web mượt mà hơn thì dùng đoạn code này
+          cho body
+        </li>
+      </ul>
+        <img src="image/e.PNG" alt="ví dụ" />
+        <blockquote>
+          <h2>
+            <b>DÀNH CHO BẠN:</b>
+          </h2>
+          <p>
+            Mình có khoá học HTML CSS từ cơ bản tới nâng cao cho người mới, nếu
+            bạn quan tâm thì bạn có thể học thử <b>miễn phí</b> bằng việc
+            <a href="https://www.google.com/">nhấn vào đây</a> nha.
+          </p>
+        </blockquote>
+        <ul>
+        <li>
+          Muốn tạo lớp nền mờ phía sau đặc biệt là khi làm lớp overlay phủ lên
+          thì dùng đoạn code này, các bạn thay đổi giá trị sao cho phù hợp
+        </li>
+        </ul>
+        <img src="image/g.PNG" alt="ví dụ" />
+
+        <ul>
+            <li>Và còn nhiều nữa sẽ update thêm sau này…</li>
+        </ul>
+      </ul>
+    </div>
+    <div>
+        <img src="https://evondev.com/wp-content/uploads/2021/01/css-scroll-snap.jpg" alt="course"width="500">
+        <br>
+        <p>Scroll snap là gì ? Tìm hiểu chuyên sâu về CSS Scroll Snap</p>
+        <br>
+        <img src="https://evondev.com/wp-content/uploads/2020/12/css-text.png" alt="course"width="500">
+        <br>
+        <span>Các kỹ thuật xử lý vấn đề về nội dung trong CSS mà bạn nên biết</span>
+        <br>
+        <img src="https://evondev.com/wp-content/uploads/2020/05/spacing-trong-css.jpg" alt="course" width="500">
+        <br>
+        <span>Tìm hiểu chi tiết về Spacing trong CSS</span>
+        <br>
+        <img src="https://evondev.com/wp-content/uploads/2020/03/rocket-your-knowledge.jpg" alt="course" width="500">
+        <br>
+        <span>Khoá học evondev của mình có gì ? Và vì sao mà bạn nên tham gia</span>
+    </div>
+  </body>
+</html>
