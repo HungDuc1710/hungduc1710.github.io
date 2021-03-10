@@ -1,0 +1,23 @@
+h1{
+    color: teal;
+    background-color: papayawhip;
+}
+p, h1{
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:darkcyan
+}
+p{
+    font-size: 15px;
+}
+.papayawhip{
+    background-color: papayawhip;
+}
+.colorTeal{
+    color: teal;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    /* CSS viết càng tối giản càng tốt, thuộc tính nào muốn thì gọi class đấy ra sau */
+}
