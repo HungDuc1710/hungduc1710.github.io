@@ -1,0 +1,23 @@
+section{
+    block-size: border-box;
+    width: 70%;
+    background-color: gray;
+}
+div.article1{
+    block-size: border-box;
+    display: inline-block;
+    width: 25%;
+    height: 25%;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    background-color: rgb(202, 200, 200);
+    border: 10px;
+    border-color: rgb(150, 58, 58);
+}
+div{
+    block-size: border-box;
+    display: inline-block;
+    padding: 10px;
+    word-wrap: normal;
+}

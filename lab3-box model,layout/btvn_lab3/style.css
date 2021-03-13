@@ -1,0 +1,262 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: rgba(255, 255, 255, 0.527);
+}
+.inline-block {
+  display: inline-block;
+}
+.center-pad {
+  padding-left: 180px;
+}
+.Montaga {
+  font-family: "Montaga", serif;
+}
+.header {
+  box-sizing: border-box;
+  display: block;
+  font-family: "Teko", sans-serif;
+  font-size: 4vw;
+  -webkit-text-fill-color: white;
+  position:relative; 
+  top:80px;
+
+  -webkit-text-stroke-width: 1px;
+  text-shadow: 2px 2px 4px rgb(61, 61, 61);
+
+  padding-top: 180px;
+  padding-bottom: 180px;
+
+  padding-right: 100px;
+  margin-bottom: 80px;
+  width: 100%;
+  height: auto;
+  
+  background-color: aquamarine;
+  background-image: url(http://fight.vn/upload/images/wp1874967.jpg);
+}
+
+.header1 {
+  box-sizing: border-box;
+  display: block;
+  font-family: "Teko", sans-serif;
+  font-size: 4vw;
+  -webkit-text-fill-color: white;
+  position:relative; 
+  top:80px;
+
+  -webkit-text-stroke-width: 1px;
+  text-shadow: 2px 2px 4px rgb(61, 61, 61);
+
+  padding-top: 180px;
+  padding-bottom: 180px;
+
+  padding-right: 100px;
+  margin-bottom: 80px;
+  width: 100%;
+  height: auto;
+  
+  background-color: aquamarine;
+  background-image: url(https://wallpapercave.com/wp/wp1955379.jpg);
+}
+
+.header2 {
+  box-sizing: border-box;
+  display: block;
+  font-family: "Teko", sans-serif;
+  font-size: 4vw;
+  -webkit-text-fill-color: white;
+  position:relative; 
+  top:80px;
+
+  -webkit-text-stroke-width: 1px;
+  text-shadow: 2px 2px 4px rgb(61, 61, 61);
+
+  padding-top: 180px;
+  padding-bottom: 180px;
+
+  padding-right: 100px;
+  margin-bottom: 80px;
+  width: 100%;
+  height: auto;
+  
+  background-color: aquamarine;
+  background-image: url(https://www.wallpapertip.com/wmimgs/82-821959_funniest-jiu-jitsu-picture-data-src-brazilian-jiu.jpg);
+  background-size: cover;
+}
+
+.header3 {
+  box-sizing: border-box;
+  display: block;
+  font-family: "Teko", sans-serif;
+  font-size: 4vw;
+  -webkit-text-fill-color: white;
+  position:relative; 
+  top:80px;
+
+  -webkit-text-stroke-width: 1px;
+  text-shadow: 2px 2px 4px rgb(61, 61, 61);
+
+  padding-top: 180px;
+  padding-bottom: 180px;
+
+  padding-right: 100px;
+  margin-bottom: 80px;
+  width: 100%;
+  height: auto;
+  
+  background-color: aquamarine;
+  background-image: url(https://wallpapercave.com/wp/wp2631754.jpg);
+  background-size: cover;
+}
+
+.header4 {
+  box-sizing: border-box;
+  display: block;
+  font-family: "Teko", sans-serif;
+  font-size: 4vw;
+  -webkit-text-fill-color: white;
+  position:relative; 
+  top:80px;
+
+  -webkit-text-stroke-width: 1px;
+  text-shadow: 2px 2px 4px rgb(61, 61, 61);
+
+  padding-top: 180px;
+  padding-bottom: 180px;
+
+  padding-right: 100px;
+  margin-bottom: 80px;
+  width: 100%;
+  height: auto;
+  
+  background-color: aquamarine;
+  background-image: url(https://cdn.evolve-mma.com/wp-content/uploads/2017/12/belt-promotion.jpg);
+  background-size:cover;
+}
+
+.nav {
+  box-sizing: border-box;
+  display: block;
+  padding-top: 5px;
+  margin-left: 0;
+  text-align:end;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: auto;
+
+  background-color: #F7F7F7;
+
+  border: 5px;
+}
+#nav {
+  display: inline-block;
+  padding-left: 60px;
+}
+.logo{
+    display: inline;
+    position: absolute;
+    top: 0%;
+    left: 0px;
+    text-align: start;
+}
+
+main {
+  
+  display: inline-block;
+  height: auto;
+  padding-left: 70px;
+  padding-right: 20px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+.nav1{
+    
+  background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0),black), url("https://www.elleman.vn/wp-content/uploads/2019/12/13/1-brazilian-jiu-jitsu-elle-man-1219.jpg"); 
+    background-size: 600px;
+    background-position-y: top;
+    background-position: right;
+    
+}
+.nav2{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0),black),url(https://bjj-world.com/wp-content/uploads/2019/12/how-bjj-works-students-at-bjj-gym-line-up-in-rank-iStock-946060408-1024x682.jpg);
+    background-size: cover;
+}
+.nav3{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), black), url(http://cdn.shopify.com/s/files/1/0363/5125/articles/Quality_Black_Belt.png?v=1579255609);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: cover;
+}
+.nav4{
+    background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0),black), url(https://www.elleman.vn/wp-content/uploads/2019/12/13/featureimage-brazilian-jiu-jitsu-elle-man-1219.png);
+    background-size: cover;
+    background-position: center;
+}
+.sample-subject {
+  box-sizing: border-box;
+  display: inline-block;
+  color: #ffffff;
+  padding-top: 250px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  background-color: aliceblue;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 40px;
+  background-image: linear-gradient(black);
+  /* margin-left: 145px; */
+}
+.image{
+    width: 600px;
+    margin-left: 145px;
+    
+}
+.article-1{
+    box-sizing: border-box;
+  display: inline-block;
+  color: #000000;
+  text-align: justify  ;
+  padding-top: 0px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  background-color: rgb(255, 255, 255);
+  width: 600px;
+  height: auto;
+  margin-bottom: 40px;
+  background-image: linear-gradient(black);
+  margin-left: 145px;
+  box-shadow: 0px 0px 8px black;
+}
+.aside {
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  text-align: justify;
+  padding: 30px;
+  width: 500px;
+  height: auto;
+  background-color: crimson;
+  margin-top: 10px;
+ 
+ 
+  
+}
+.footer {
+  box-sizing: border-box;
+  display: block;
+  background-color: #e4e4e4;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.text-padding10 {
+  margin-top: 20px;
+}

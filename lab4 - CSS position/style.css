@@ -1,0 +1,93 @@
+/* position: static (mặc định)  => các thuộc tính khác không tác dụng lên phần thử static
+position-(top,left,right,bottom): đẩy phần tử ra hướng mình chỉ định kể từ mốc
+
+z-index: chỉ định vị trí hiển thị của phần tử trong stack, phần tử có z-index cao thì đc hiển thị bên trên
+
+relative: biến vị trí ban đầu thành mốc, rồi dùng top left right bottom để xô đẩy kể từ mốc đấy
+
+absolute: vị trí gốc sẽ bị biến mất nếu sử dụng top,left,right,bottom. => div khác sẽ chiếm chỗ khác relative*/
+
+.menu {
+  word-spacing: -1ch;
+  padding-left: 0;
+  
+}
+.menu-item {
+  position: relative;
+  display: inline-block;
+  word-spacing: normal;
+  vertical-align: top;
+  list-style: none;
+}
+.menu-item:hover > .menu-link {
+  background-color: yellow;
+  color: black;
+}
+.menu-item:hover > .sub-menu {
+  display: block;
+}
+.sub-item:hover > .sub-link {
+  background-color: yellow;
+  color: black;
+}
+
+.menu-link {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+}
+
+.menu-link.active {
+  background-color: yellow;
+  color: black;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  list-style: none;
+  background-color: green;
+  padding-left: 0%;
+  width: 100%;
+}
+
+.sub-item > .sub-menu {
+    display: none;
+    position:absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+}
+
+.sub-item:hover > .sub-menu{
+    display: block;
+}
+.sub-link {
+  display: block;
+  padding: 10px;
+  color: white;
+}
+.phone{
+    display: block;
+    position: fixed;
+    top: 90%;
+    left: 90%;
+}
+.modal-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 0, 0, 0.2);
+}
+.modal-content{
+    width: 300px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
