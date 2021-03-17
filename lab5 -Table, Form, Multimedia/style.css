@@ -1,0 +1,79 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+tr {
+    border: 1px solid rgb(194, 194, 194);
+}
+table{
+    border-collapse: collapse;
+    /* table-layout: fixed; */
+    /* caption-side: bottom; */
+}
+th{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-align: left;
+    width: 200px;
+}
+tr{
+    padding-top: 100px;
+    vertical-align: bottom;
+    
+}
+tbody tr:hover{
+    background-color: rgb(226, 215, 202) !important;
+}
+td{
+    width: 200px;
+    padding: 10px;
+    text-align: left ;
+    vertical-align: middle;
+    padding-top: 20px;
+    padding-bottom: 20px
+    ;
+    
+}
+
+tr:nth-child(even){
+    background-color: rgb(230, 230, 230);
+}
+.img{
+    border-radius: 50%; 
+    /* border radius để biến hình vuông thành tròn */
+    vertical-align: middle;
+}
+table{
+    margin: auto;
+
+}
+form{
+    margin-top: 100px;
+}
+label:nth-child(1), .label{
+   display: inline-block;
+   width: 200px;
+}
+input[type="text"],
+input[type="password"]{
+    width: 200px;
+    box-sizing: border-box;
+}
+
+input,textarea{
+    resize: none;
+    font-family: inherit;
+    background-color: aquamarine;
+}
+input:hover, input:focus{
+    background-color: bisque;
+}
+input[type="number"]:valid{
+    background-color: rgb(0, 255, 149);
+}
+input[type="number"]:invalid{
+    background-color: red;
+}
+input[type ="checkbox"]:checked{
+    width: 100px;
+}

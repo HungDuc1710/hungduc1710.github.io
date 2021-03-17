@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <video width="500px" controls src="video.mp4" preload="auto" muted loop ></video>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/O2gGmN90BgY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.268251310605!2d105.8133963139814!3d21.021949986002006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab6564282789%3A0x1de41f5512652aa1!2zVmnhu4d0IE5hbSBUb3AgVGVhbSAtIFbDtSB04buVbmcgaOG7o3AsIE5odSB0aHXhuq10LCBRdXnhu4FuIEFuaCwgS2lja2JveGluZywgUXV54buBbiBUaMOhaQ!5e0!3m2!1svi!2s!4v1615896525416!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+
+    <table>
+      <caption>
+        Bài tập
+      </caption>
+      <thead>
+        <tr>
+          <!-- <th></th> -->
+          <th>Name</th>
+          <th>Location</th>
+          <th>Email</th>
+          <th>Phone number</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <!-- <th>Tiêu đề hàng</th> -->
+          
+          <td><img src="icon.jpg" alt="" width="30px" class="img">
+              Logan Henderson</td>
+          <td>Chicago, IL</td>
+          <td>logan@company.com</td>
+          <td>938-283-9277</td>
+        </tr>
+        <tr>
+          <!-- <th></th> -->
+          <td><img src="icon.jpg" alt="" width="30px" class="img">Susie Carlson</td>
+          <td>New York, NY</td>
+          <td>susie@company.com</td>
+          <td>394-938-9223</td>
+        </tr>
+        <tr>
+          <td><img src="icon.jpg" alt="" width="30px" class="img">Markus Benes</td>
+          <td>San Francisco, CA</td>
+          <td>markus@company,com</td>
+          <td>872-993-1029</td>
+        </tr>
+        <tr>
+          <td><img src="icon.jpg" alt="" width="30px" class="img">Marie Stephens</td>
+          <td>Boston, MA</td>
+          <td>marie@company.com</td>
+          <td>928-938-5523</td>
+        </tr>
+        <tr>
+          <td><img src="icon.jpg" alt="" width="30px" class="img">Jacob Gibson</td>
+          <td>Denver, CO</td>
+          <td>jacob@company.com</td>
+          <td>192-617-4895</td>
+        </tr>
+        <tr>
+          <td><img src="icon.jpg" alt="" width="30px" class="img">Eliza Figueroa</td>
+          <td>Burlington,VT</td>
+          <td>eliza@company.com</td>
+          <td>717-029-2273</td>
+        </tr>
+        
+      </tbody>
+      <!-- <tfoot>
+        <tr>
+             <td></td>
+            <td></td> -->
+          <!-- <td colspan="3" ></td>>Tổng số</td>
+          <td>5</td>
+        </tr>
+        <tr>
+            <td>demo</td>
+        </tr>
+      </tfoot> --> 
+    </table>
+
+    <form name="login" action="">
+        <div class="row">
+            <label for="textid">Username(*)</label>
+            <input name="text" type="text" required placeholder="Nhập tên" id="textid">
+        </div>
+
+        <div class="row">
+            <label for="passid">password</label>
+            <input name="password" type="password" id="passid">
+        </div>
+
+        <div class="row">
+            <label for="dob">Ngày sinh</label>
+            <input name="date" type="date" id="dob">
+        </div>
+
+        <div class="row">
+            <input name="color" type="color">
+        </div>
+
+        <div class="row">
+            <input name="file" type="file" accept="image/*">
+        </div>
+
+        
+        <div class="row">
+            <span class="label">Gender</span>
+            <!-- radio,checkbox giúp đặt nhiều lựa chọn cho 1 giá trị -->
+            <input name="gender" value="nam" type="radio" id="Nam">
+            <label for="Nam">Nam</label>
+            <!-- Để nhận biết đc thì những input này phải có chung name -->
+            <input name="gender" type="radio" value="nữ" id="Nữ">
+            <label for="Nữ">Nữ</label>
+            <input name="gender" type="radio" value="bd" id="BD">
+            <label for="BD">Bêdee</label>
+        </div>
+
+        
+        <div class="row">
+            <span class="label">Sở thích</span>
+            <input name="Hobby" type="checkbox" value="game" id="Game">
+            <label for="Game">Chơi game</label>
+            <input name="Hobby" type="checkbox" value="music" id="music">
+            <label for="music">Nghe nhạc</label>
+            <input name="Hobby" type="checkbox" value="eat" id="eat">
+            <label for="eat">Ăn ngon</label>
+            <input name="Hobby" type="checkbox" value="bjj" id="bjj">
+            <label for="bjj">Jiujitsu</label>
+        </div>
+
+        <div class="row">
+            <input type="number" min="100" max="1000" step="12" name="number">
+        </div>
+
+        <input type="submit">
+        <input type="reset" value="Thu hồi">
+        <br>
+        <button type="reset">Reset Button</button>
+        <button type="submit">Submit Button</button>
+
+        <!-- Select giúp làm thay radio, checkbox mà k cần label -->
+        <div class="row">
+            <select name="gender" id="" multiple>
+                <option value="nam">Nam</option>
+                <option value="Nữ">Nữ</option>
+                <option value="Bede">Bede</option>
+            </select>
+        </div>
+
+        <div class="row">
+            <label for="content">Nội dung</label>
+            <textarea name="content" id="content" cols="30" rows="10" ></textarea>
+        </div>
+        
+    </form>
+  </body>
+</html>

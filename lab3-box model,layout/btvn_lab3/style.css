@@ -4,6 +4,7 @@
 }
 body {
   background-color: rgba(255, 255, 255, 0.527);
+  
 }
 .inline-block {
   display: inline-block;
@@ -176,6 +177,16 @@ main {
   padding-top: 50px;
   padding-bottom: 10px;
 }
+.main-article{
+  
+  display: inline-block;
+  height: auto;
+  width: 60%;
+  padding-left: 7px;
+  padding-right: 20px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
 .nav1{
     
   background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0),black), url("https://www.elleman.vn/wp-content/uploads/2019/12/13/1-brazilian-jiu-jitsu-elle-man-1219.jpg"); 
@@ -241,7 +252,7 @@ main {
   vertical-align: top;
   text-align: justify;
   padding: 30px;
-  width: 500px;
+  width: 40%;
   height: auto;
   background-color: crimson;
   margin-top: 10px;

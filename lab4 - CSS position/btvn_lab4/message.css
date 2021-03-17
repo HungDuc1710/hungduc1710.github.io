@@ -1,0 +1,47 @@
+.message {
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    right: 50px;
+}
+
+.message-link {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 60px;
+    font-size: 18px;
+    color: #044254;
+    line-height: 20.7px;
+    font-family: Arial;
+    box-shadow: 0 0 5px gray;
+    
+}
+
+.message-link:hover {
+    cursor: pointer;
+    color: #044254;
+}
+
+.modal-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+.modal-message {
+    border-radius: 5px;
+    font-size: 30px;
+    padding-top: 75px;
+    width: 450px;
+    height: 200px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18%;
+    text-align: center;
+}

@@ -1,0 +1,42 @@
+.nav-menu{
+    font-size: 13px;
+    background-color: rgb(1,149,163);
+}
+
+.menu-ul {
+    width: 200px;
+    background-color: white;
+    padding: 8px 0 12px;
+    position: relative;
+    box-shadow: 0px 0px 1px grey ;
+    height: 344.141px;
+}
+
+.menu-ul li {
+    padding-left: 8px;
+}
+
+.menu-li .menu-ul {
+    
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    line-height: 26px;
+    /* height: auto; */
+}
+
+.menu-li:hover > .menu-ul {
+    display:block;
+}
+
+.menu-img{
+    width: calc(100% - 200px);
+    vertical-align: middle;
+}
+.arrow{
+    vertical-align: middle;
+}
+.arrow:hover{
+    color: #f57224;
+}
