@@ -1,0 +1,78 @@
+*{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+    font-size: 14px;
+}
+tr td {
+    /* border: 1px solid rgb(58, 58, 58);  */
+    border: 1px solid rgb(153, 153, 153);
+    padding: 10px;
+}
+tr th{
+    border: 1px solid rgb(153, 153, 153);
+    padding: 10px;
+}
+
+tr:nth-child(5n+2){
+    background-color: rgb(240, 239, 239);
+}
+tr:nth-child(4n){
+    background-color: rgb(240, 239, 239);
+}
+tr:nth-child(5n+5){
+    background-color: rgb(240, 239, 239);
+    /* -webkit-transition: all 1s linear; */
+}
+
+table {
+    border-collapse: collapse;
+    height: 350px;
+    border: 3px solid rgb(153, 153, 153);
+    
+}
+.red{
+    color: red;
+    
+}
+.dacbiet{
+    font-size: 25px;
+    font-weight: bolder;
+    
+}
+.pos{
+    width: 80px;
+}
+.content{
+    width: 500px;
+    
+    
+}
+.italic{
+    font-style: italic;
+    
+}
+.fwnormal{
+    font-weight: normal;
+}
+.fwbolder{
+    font-weight: bolder;
+}
+.number-size{
+    font-size: 22px;
+}
+.bolder{
+    font-weight: bolder;
+}
+.top-vertical{
+    vertical-align: top;
+}
+ td:hover.bolder{
+    color: rgb(255, 200, 80);
+    
+}
+ td:hover.content{
+    color: rgb(255, 200, 80);
+    
+}
