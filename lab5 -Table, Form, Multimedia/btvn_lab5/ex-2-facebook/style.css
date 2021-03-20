@@ -218,23 +218,7 @@ a{
 .hide{
     display: none;
 }
-.popup-wrapper{
-    
-    display: none;
-    background-color: rgba(255, 255, 255, .8);
-    position: fixed;
 
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    bottom: 0px;
-    right: 0px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-}
 .name-box{
     width: 190px;
     padding: 17px;
@@ -360,6 +344,23 @@ a{
     position: absolute;
     right: 36px;
 }
-input:checked ~ .popup-wrapper{
+button:checked + .popup-wrapper{
     display: block;
+}
+.popup-wrapper{
+    
+    display: none;
+    background-color: rgba(255, 255, 255, .8);
+    position: fixed;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    bottom: 0px;
+    right: 0px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
 }

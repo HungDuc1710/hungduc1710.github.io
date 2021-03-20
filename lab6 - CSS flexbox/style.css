@@ -1,0 +1,36 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+
+
+    background-color: rgb(250, 211, 160);
+    height: 400px;
+    justify-content:space-evenly;
+
+    align-items: center;
+    align-content: space-between;
+    /* align content giống justify content cơ mà dựa trên trục cross */
+}
+.flex-item{
+    width: 170px;
+   background-color: red;
+   order: 0;
+   /* order giống z-index */
+   /* flex-grow: 1; */
+   /* flex grow chỉ định kích thước của item khi mở ra theo tỷ lệ */
+   flex-shrink: 1;
+   flex-basis: auto;
+    /* flex basis chính là width */
+   align-self: auto;
+}
+.two{
+    flex-grow: 0;
+}
+.three{
+    flex-shrink: 2
+    ;
+    background-color: aquamarine;
+    align-self: stretch;
+    align-items: ;
+}
