@@ -1,0 +1,49 @@
+main{
+    height: fit-content;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.signup-header{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.signup-selection{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    text-align: center;
+}
+.signup-option{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(28,151,227);
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 1px solid rgb(0, 119, 255);
+
+}
+.text, .price{
+    color: white;
+    letter-spacing: normal;
+    
+}
+.text{
+    font-size: 17px;
+    font-style: normal;
+}
+.italic{
+    font-style: italic;
+}
+.price{
+    font-size: 40px;
+}
+.signup-option:hover{
+    background-color: rgb(255, 115, 0);
+}

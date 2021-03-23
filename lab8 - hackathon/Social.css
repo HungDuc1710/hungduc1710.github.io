@@ -1,0 +1,44 @@
+
+.icon:hover{
+   color: rgb(0, 110, 255);
+}
+.footer-holder{
+    padding: 40px;
+    
+}
+.copyright{
+    vertical-align: middle;
+    position: relative;
+    top:20px;
+    font-size: 10px;
+    
+}
+.dash{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.social{
+    
+    position: relative;
+    margin-left: 890px;
+    right: 0;
+    
+}
+.social-item{
+    margin-right:5px;
+}
+.row{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    line-height: 20px;
+    
+}
+.bottom-nav{
+    display: block;
+    margin-top: 20px;
+    
+}
+.bottom-nav-item{
+    font-size: 8px;
+}

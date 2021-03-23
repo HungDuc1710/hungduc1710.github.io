@@ -1,0 +1,130 @@
+@font-face{
+    font-family: UniversLT;
+    src: url(font/Univers\ LT\ 57\ Condensed.ttf) ;
+    
+}
+*{
+    font-family: UniversLT;
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: rgb(75, 75, 75);
+    text-transform: uppercase;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+/* Class chung */
+.container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+ 
+}
+
+.letter-spacing{
+    letter-spacing: 3px;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+nav{
+    
+    height: 60px;
+    background-color: white;
+    padding-top: 20px;
+    vertical-align: middle;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+}
+ul,
+li {
+    display: inline;
+    list-style: none;
+}
+/* Class riêng */
+.nav-menu{
+    margin-left: 0px;
+}
+.nav-logo{
+    margin-right: 100px;
+}
+
+.display-none{
+    display: none;
+
+}
+
+.contact-info{
+    letter-spacing: normal;
+    font-size: 11px;
+    text-align: start;
+    padding-left: 23px;
+    padding-top: 10px;
+    
+}
+.pad-20{
+    padding-top: 20px;
+}
+.blue{
+    color:rgb(0, 110, 255) ;
+    letter-spacing: normal;
+    font-size: 11px;
+}
+.option{
+    display: inline-block;
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-item{
+
+    padding-left: 30px;
+}
+a:hover{
+    color: rgb(0, 110, 255);
+}
+
+.nav-subitem{
+    padding-left: 10px;
+}
+.container-img{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+.menu{
+    display: inline-block;
+    height: 40px;
+    
+}
+
+.close-form{
+    position: absolute;
+    height: 20px;
+    top: 0;
+    right: 0;
+}
+#checkbox{
+    margin: 0;
+    display: none;
+}
+.none{
+    display: none;
+}
